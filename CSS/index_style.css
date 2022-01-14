@@ -1,0 +1,126 @@
+body{
+    background-color:#D2691E;
+    font-family:'MasonChronicles' ;
+}
+
+/*header*/
+.header__button{
+    margin-right: auto;
+}
+.header{
+    background-color: blueviolet;
+}
+.header__button{
+    background-color:#FF4500;
+}
+.burger{
+    background:transparent;
+}
+
+
+/*hero*/
+.hero{
+    height: 600px;
+    background:url("../4.jpg") no-repeat left center / cover;
+    display: flex;
+    justify-content: center;
+}
+.hero__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero_content{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:center;
+}
+.hero__title{
+    margin-bottom: 50px;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 71px;
+
+ }
+.hero__descripcion{
+    font-weight:bold;
+    font-size: 30px;
+    line-height: 31px;
+
+}
+/*do*/
+.do{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#D2691E;;
+    padding: 50px 0;
+}
+.do_title{
+    font-size: 50px;
+    line-height: 51px;
+    border:5px solid blueviolet;
+    padding: 25px 30px;
+    animation: infinite;
+}
+/*tabs*/
+.tabs{
+    padding-top: 50px;
+}
+.tabs__tab{
+    font-size: 25px;
+    line-height: 15px;
+}
+.games__title{
+    font-size: 15px;
+    line-height: 20px;
+}
+
+/*our_us*/
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items:center;
+    background:blueviolet;
+}
+.banner__heading{
+    margin-bottom: 25px;
+    font-size: 25px;
+    line-height: 20px;
+   
+}
+.banner__descripcion{
+    font-size: 15px;
+    line-height: 1;
+    
+}
+
+.contacts{
+    border: 5px solid blueviolet;
+    padding: 20px 30px;
+}
+.section__title{
+    color: #696969;
+}
+.footer__copyright{
+    background-color:blueviolet;
+    position: relative;
+}
+.navigation-list,.modal-cookie{
+    background-color:#FF4500;
+}
+.modal-cookie__title{
+    color:white
+}
+.modal-cookie__info{
+    color:white;
+}
+.modal-cookie-close{
+    background-color:blueviolet;
+}
+.modal-cookie-add{
+    background-color:blueviolet;
+}
